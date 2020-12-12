@@ -108,3 +108,7 @@ footer h4 {
 a:hover img {
     width: 80px;
 }
+
+ul.links li a:hover {
+    background: #193282;
+}
