@@ -45,8 +45,14 @@ header img {
     height: 70px;
 }
 
+main {
+    padding-top: 10%;
+}
+
 .content {
+    width: 100%;
     max-width: 900px;
+    margin: 0 auto;
 }
 
 ul.infos {
@@ -73,17 +79,27 @@ ul.links li {
 }
 
 ul.links li a {
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
     background-color: #7909AF;
     padding: 10px 40%;
+    border-radius: 10px;
 }
 
 footer {
+    display: flex;
     height: 70px;
     margin: auto 0;
     margin-bottom: 0;
     background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #752995 100%);
+}
+
+footer h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: auto auto;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
 }
 
 a:hover img {
