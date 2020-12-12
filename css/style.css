@@ -46,7 +46,11 @@ header img {
 }
 
 main {
-    padding-top: 10%;
+    margin: auto auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .content {
