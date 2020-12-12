@@ -46,8 +46,8 @@ header img {
 }
 
 main {
+    justify-self: center;
     margin: auto auto;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +93,6 @@ ul.links li a {
 footer {
     display: flex;
     height: 70px;
-    margin: auto 0;
     margin-bottom: 0;
     background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #752995 100%);
 }
