@@ -1,0 +1,36 @@
+function Programacao(tema, palestrante, local, dia, hora) {
+    var classeHtml = "prog";
+    var position = document.querySelector(classeHtml);
+    var newLi = document.createElement('li');
+    var newDivText = document.createElement('div');
+    newDivText.classList.add('box');
+    var newh2 = document.createElement('h2');
+    var newh3 = document.createElement('h3');
+    var newh4 = document.createElement('h3');
+    var a = document.createTextNode(tema);
+    newh2.appendChild(a);
+    var a = document.createTextNode(palestrante);
+    newh3.appendChild(a);
+    var a = document.createTextNode(local);
+    newh4.appendChild(a);
+    newDivText.appendChild(newh2);
+    newDivText.appendChild(newh3);
+    newDivText.appendChild(newh4);
+    newLi.appendChild(newDivText);
+    position.appendChild(newLi);
+    newLi.classList.add('animation');
+    var classeHtml = "prog";
+    var position = document.querySelector(classeHtml);
+    var newDivCircle = document.createElement('div');
+    var newh3 = document.createElement('h3');
+    var newh4 = document.createElement('h4');
+    var a = document.createTextNode(dia);
+    newh3.appendChild(a);
+    var a = document.createTextNode(hora);
+    newh4.appendChild(a);
+    newDivCircle.classList.add('circle');
+    newDivCircle.classList.add('animation');
+    newLi.appendChild(newDivCircle);
+    position.appendChild(newDivCircle);
+}
+Programacao("12", "14h", "dsadasdasdasdadasdasdas", "dsadasd", "sddasdas");
