@@ -79,14 +79,18 @@ ul.links {
 }
 
 ul.links li {
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 ul.links li a {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
     font-size: 2rem;
     color: white;
     background-color: #7909AF;
-    padding: 10px 40%;
+    padding: 10px 10px;
     border-radius: 10px;
 }
 
