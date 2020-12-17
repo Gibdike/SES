@@ -31,12 +31,22 @@ h2 {
     color: #9833ca;
 }
 
-h2.sub {
+.sub {
+    padding: 50px 00px;
+    margin: 0 auto;
+    width: 80%;
+    background: url(../img/laço.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+
+.sub h2 {
     font-size: 3.5rem;
     color: #7909AF;
 }
 
-h3.sub {
+.sub h3 {
     font-size: 2.5rem;
     color: #7909AF;
 }
@@ -189,7 +199,27 @@ ul.links li a:hover {
     max-height: 80px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {}
+
+.sub {
+    width: 400px;
+    padding-bottom: 40px;
+    background-size: 180px;
+}
+
+.sub h1 {
+    font-size: 4rem;
+}
+
+.sub h2 {
+    font-size: 2.1rem;
+}
+
+.sub h3 {
+    font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 450px) {
     .content {
         width: 94%;
     }
@@ -198,5 +228,22 @@ ul.links li a:hover {
     }
     .you img {
         width: 50px;
+    }
+    .sub {
+        width: 280px;
+        padding-bottom: 40px;
+        background-size: 180px;
+    }
+    .sub h1 {
+        text-align: left;
+        font-size: 4rem;
+    }
+    .sub h2 {
+        text-align: left;
+        font-size: 1.7rem;
+    }
+    .sub h3 {
+        text-align: left;
+        font-size: 1.4rem;
     }
 }
